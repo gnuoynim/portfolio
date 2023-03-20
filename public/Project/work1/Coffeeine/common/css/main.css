@@ -1,0 +1,77 @@
+@charset "UTF-8";
+
+/*mainVisArea*/
+.mainVisArea .swiper-container .swiper-slide img{width: 100%;}
+.mainVisArea .swiper-container .slider3{position: relative;}
+.mainVisArea .swiper-container .slider3 .info{font-size: 18px; font-weight: 500; color: #0d2548; background-color: #fff; border-radius: 27px;width: 195px; line-height: 55px;position: absolute;top:305px; left: 455px;text-align: center;}
+.mainVisArea .swiper-container .swiper-button-next{width: 60px; height: 60px; background: url(../images/mainVis_next.svg) no-repeat center center; opacity: 0.8; right: 40px; transition: all 0.3s;}
+.mainVisArea .swiper-container .swiper-button-next:hover{opacity: 0.5;}
+.mainVisArea .swiper-container .swiper-button-next:after{display: none;}
+.mainVisArea .swiper-container .swiper-button-prev{width: 60px; height: 60px; background: url(../images/mainVis_previous.svg) no-repeat center center; opacity: 0.8; left: 40px; transition: all 0.3s;}
+.mainVisArea .swiper-container .swiper-button-prev:hover{opacity: 0.5;}
+.mainVisArea .swiper-container .swiper-button-prev:after{display: none;}
+.swiper-container-vertical > .swiper-wrapper{flex-direction: column-reverse;}
+
+/*common*/
+.mainCon{width: 1180px; margin: 0 auto;}
+
+/*mainCon*/
+.mainCon1{margin-top: 100px;}
+.mainCon1:after{content: ""; display: block; clear: both;}
+.mainCon1 .container{position: relative; top: 150px; opacity: 0;}
+.mainCon1 .mainIco{padding-left: 115px;float: left;}
+.mainCon1 .mainIco img{border-radius: 50%; transition: all 0.3s;}
+.mainCon1 .mainIco img:hover{box-shadow: -2px 12px 16px 0px rgba(3, 0, 0, 0.13);}
+.mainCon1 .mainIco+.mainIco{padding-left: 245px;}
+.mainCon1 .mainIco span{display: block; text-align: center;}
+.mainCon1 .mainIco .tit{font-size: 22px; font-weight: 500; padding-top: 30px;}
+.mainCon1 .mainIco .txt{font-size: 16px; padding-top: 20px;}
+
+.mainCon2{position: relative;}
+.mainCon2 .newArea{margin-top: 100px;}
+.mainCon2 .newArea:after{content: ""; display: block; clear: both;}
+.mainCon2 h2{padding: 60px 0;font-size: 48px; text-align: center; position: relative; top: 150px; opacity: 0;}
+.mainCon2 .newBx{float: left; position: relative; top: 150px; opacity: 0;}
+.mainCon2 .newBx+.newBx{padding-left: 20px;}
+.mainCon2 .newBx a{display: block; overflow: hidden;}
+.mainCon2 .newBx a img{transform: scale(1.0); transition: all 0.3s;}
+.mainCon2 .newBx a:hover img{transform: scale(1.1);}
+.mainCon2 .newBx span{display: block;font-size: 24px; padding: 40px 0 35px 0;text-align: center;}
+.mainCon2 .mainCon2Bg{position: absolute; left: 0; top: 0; z-index: -10; background: url(../images/main2_bg.png)no-repeat; width: 100%; height: 100%;background-size: cover;}
+
+.mainCon3{margin-top: 100px; background: url(../images/event_bg.png)no-repeat;background-size: cover; width: 100%; height: 100%; padding-bottom: 65px;}
+.mainCon3 .eventArea{position: relative; width: 1880px; margin: 0 auto;}
+.mainCon3 h2{font-size: 48px; padding: 85px 0 65px 0; text-align: center; position: relative; top: 150px; opacity: 0;}
+.mainCon3 .swiper-container{top: 150px; opacity: 0;}
+.mainCon3 .swiper-wrapper .swiper-slide{width: 360px !important;}
+
+.mainCon4{padding: 120px 0; position: relative;}
+.mainCon4:after{content: ""; display: block; clear: both;}
+.mainCon4 .con{padding: 30px; border: 1px solid #eaeaea; width: 410px; height: 220px; position: relative; top: 150px; opacity: 0; box-sizing: border-box;}
+.mainCon4 .con h3{font-size: 20px;}
+.mainCon4 .con .conList{margin-bottom: 20px;}
+.mainCon4 .con .conList ul{padding-top: 20px;}
+.mainCon4 .con .conList ul li{line-height: 29px; font-size: 16px;}
+.mainCon4 .con .conList ul li:hover a{text-decoration: underline; color: #5987c5;}
+.mainCon4 .con .conList ul li span{float: right;font-size: 14px;}
+.mainCon4 .con .moreBt{display: block; background: url(../images/plus_ico.png)no-repeat; width: 16px; height: 16px; position: absolute; top: 30px;right: 30px;}
+.mainCon4 .con .moreBt:before{content: "더보기"; display: block; width: 40px; font-size: 14px; position: absolute; top: 50%; left: -50px; transform: translateY(-50%);}
+.mainCon4 .newsCon{float: left; margin-right: -1px; margin-bottom: -1px;}
+.mainCon4 .faqCon{float: left; margin-bottom: -1px;}
+.mainCon4 .franCon{position: relative; top: 150px; opacity: 0; float: right; background: url(../images/bt.png)no-repeat; width: 360px; height: 439px; color: #fff; text-align: center; box-sizing: border-box;}
+.mainCon4 .franCon h3{font-size: 24px; font-weight: 700;padding: 55px 0 65px 0;}
+.mainCon4 .franCon p{font-size: 18px; font-weight: 500; line-height: 38px;}
+.mainCon4 .franCon .moreBt{display: none; background: url(../images/btn_ico.png)no-repeat; width: 45px; height: 40px; position: absolute; bottom: 60px; right: 95px; text-align: center;}
+.mainCon4 .franCon .moreBt:before{content: "더보기"; display: block; width: 90px; font-size: 14px; position: absolute; top: 50%; left: -85px; transform: translateY(-50%); color: #fff; font-size: 24px;}
+.mainCon4 .franCon:hover .moreBt{display: block;}
+.mainCon4 .advCon{float: left; background: url(../images/adv_bg.png)no-repeat; margin-right: -1px;}
+.mainCon4 .advCon a{color: #fff;}
+.mainCon4 .advCon span{display: block; padding-top: 25px;}
+.mainCon4 .advCon .tit{font-size: 18px; font-weight: 500;}
+.mainCon4 .advCon .txt{font-size: 24px; font-weight: 500;}
+.mainCon4 .advCon h3:after{content: ""; display: block; width: 225px; height: 1px; background-color: #fff; margin-top: 10px;}
+.mainCon4 .renCon{float: left; background-color: #fcfdff; position: relative;}
+.mainCon4 .renCon h3{line-height: 24px;}
+.mainCon4 .renCon h3:after{content: ""; display: block; width: 225px; height: 1px; background-color: #000; margin-top: 10px;}
+.mainCon4 .renCon p{font-size: 18px; line-height: 30px; padding-top: 25px;}
+.mainCon4 .renCon .renIco{display: inline-block; position: absolute; bottom:70px; left: 300px; background: url(../images/rental_ico.png)no-repeat; width: 55px; height: 55px;}

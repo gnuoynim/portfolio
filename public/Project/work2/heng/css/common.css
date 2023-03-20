@@ -1,0 +1,76 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700&family=Noto+Sans+KR:wght@400;500;700&family=Roboto:wght@400;900&display=swap');
+
+body{font-family: 'Roboto','Noto Sans KR', sans-serif; font-size: 16px; line-height: 1.5; color: #4b4b4b;}
+.inner-wrap{ width: 1180px; margin: 0 auto;}
+#header{position: relative;z-index: 110;}
+#header .sub-menu-bg{background-color: #fff;width: 100%; height: 360px;position: absolute; left: 0; top: 201px;z-index: 10;border-bottom: 1px solid #e3e3e3;display: none;}
+#header.on .sub-menu-bg{display: block;}
+#header .heder-top .inner-wrap{height: 100px; position: relative;}
+#header .heder-top h1{position: absolute; left: 50%; top: 50%; transform: translate(-50%,-50%); font-size: 1em; line-height: 1em;}
+#header .heder-top h1 a{display: block;}
+#header .heder-top .util-menu{float: right; margin-top: 35px;}
+#header .heder-top .util-menu li{float: left;margin-left: 14px; width: 30px; height: 30px; border-radius: 3px; position: relative;}
+#header .heder-top .util-menu li a{display: block; position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%);}
+#header .heder-top .util-menu li:nth-child(1) a{width:27px; height: 25px; background: url(../images/ico_user.gif) no-repeat center center;}
+#header .heder-top .util-menu li:nth-child(2) a{width:18px; height: 25px; background: url(../images/ico_login.gif) no-repeat center center;}
+#header .heder-top .util-menu li a span{display: inline-block;text-indent: -9999px;}
+#header .header-bottom{border-top: 1px solid #e3e3e3; border-bottom: 1px solid #e3e3e3;}
+#header .header-bottom .inner-wrap{height: 99px; padding-top: 18px; box-sizing: border-box;}
+#header #gnb:after{content: ""; display: block; clear: both;}
+#header #gnb > li{box-sizing: border-box;float: left; width: 20%; height: 78px; text-align: center;font-size: 1.25rem; letter-spacing: -0.00625rem;position: relative;font-weight:500;}
+#header #gnb > li:before{content: ""; display: block;width: 100%; height: 15px;position: absolute; left: 0; bottom: -15px;z-index: 30;background: url(../images/gnb_hover_bar.png) no-repeat center top;  display: none;}
+#header #gnb > li:hover:before{display: block;}
+#header #gnb > li:after{content: ""; display: block;}
+#header #gnb > li > a{ display: block; padding-top: 15px; padding-bottom: 15px;}
+#header #gnb li .sub-menu-wrap{width: 100%; height: 360px;border-left: 1px solid #e3e3e3;border-right: 1px solid #e3e3e3; box-sizing: border-box;position: absolute; left: 0; top: 81px;z-index: 20;display: none;}
+#header.on #gnb li .sub-menu-wrap{display: block;}
+#header #gnb li:nth-child(1) .sub-menu-wrap,
+#header #gnb li:nth-child(2) .sub-menu-wrap,
+#header #gnb li:nth-child(3) .sub-menu-wrap,
+#header #gnb li:nth-child(4) .sub-menu-wrap,
+#header #gnb li:nth-child(5) .sub-menu-wrap{ border-left: none;}
+#header #gnb li .sub-menu{ padding: 30px 52px 0 52px;}
+#header #gnb li .sub-menu li{font-size: 1.125rem; line-height: 3rem;}
+#header #gnb li .sub-menu li a{display: block; border-bottom: 1px solid #e3e3e3;}
+#header #gnb li .sub-menu li a:hover{border-bottom: 1px solid #f3c200; color: #f3c200;}
+#footer .footer-top{ border-top: 1px solid #e3e3e3; } 
+#footer .footer-top .inner-wrap{ padding: 9px 0; overflow: hidden;} 
+#footer .footer-top .footer-link{float: left;} 
+#footer .footer-top .footer-link li{float: left;} 
+#footer .footer-top .footer-link li+li{margin-left: 32px;} 
+#footer .footer-top .footer-link li a{display: block; padding: 8px 0;} 
+#footer .footer-top .sns-link{float: right;}
+#footer .footer-top .sns-link a{float: left; margin-left: 6px;} 
+#footer .footer-bottom{ border-top: 1px solid #e3e3e3;}
+#footer .footer-bottom .inner-wrap{ overflow: hidden; padding-top: 40px; padding-bottom: 75px;}
+#footer .footer-bottom .footer-logo{float: left;}
+#footer .footer-bottom .footer-info{float: left; margin-left: 60px;font-size: 0.875rem; line-height: 1.375rem;}
+#footer .footer-bottom .footer-info .copy{margin-top: 14px;font-family: 'Roboto'; color: #888;}
+#footer .footer-bottom .cs-center{ float: right; text-align: right;}
+#footer .footer-bottom .cs-center strong{display: block; font-family: 'Roboto'; font-size: 1.75rem;}
+#footer .footer-bottom .cs-center span{display: block;}
+#container .breadcrumb{ background-color: #1a1a1a; color: #fff; }
+#container .breadcrumb .inner-wrap{padding: 16px 0;}
+#container .breadcrumb img{vertical-align: middle;}
+#container .header-tit{text-align: center; padding-top: 70px; padding-bottom: 60px;}
+#container .header-tit h2{font-size: 3rem;}
+#container .header-tit p{font-size: 1.125rem;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

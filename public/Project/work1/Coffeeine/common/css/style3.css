@@ -1,0 +1,129 @@
+@charset "UTF-8";
+
+/*membership*/
+.tab{position: relative;}
+.tab .tabMenu{background-color: rgba(255, 255, 255, 0.55); position: absolute; left: 50%; bottom:0; height: 60px; border: 1px solid black; text-align: center; transform: translateX(-50%); box-sizing: border-box;}
+.tab .tabMenu ul li{float: left; width: 25%; box-sizing: border-box;}
+.tab .tabMenu ul li.on{background-color:#f3f3f3;}
+.tab .tabMenu ul li+li{border-left: 1px solid black;}
+.tab .tabMenu ul li a{font-size: 22px; font-weight: 500; line-height: 58px;}
+
+/*members*/
+.conWrap1 .con1{margin-top: 100px;}
+.conWrap1 .con1 img{background-size: cover;}
+.conWrap1 .con2{text-align: center; line-height: 48px; margin-top: 60px;}
+.conWrap1 .con2 .txt{font-size: 30px;}
+.conWrap1 .con2 .txt span{color: #5a88c6;}
+.conWrap1 .con2 .icoBox{margin-top: 60px; overflow: hidden; text-align: center;}
+.conWrap1 .con2 .icoBox .ico1{display: inline-block;}
+.conWrap1 .con2 .icoBox .ico2{display: inline-block; margin-left: 90px;}
+.conWrap1 .con3{margin-top: 120px;}
+.conWrap1 .con3 .tit{text-align: center; font-size: 30px; line-height: 48px; font-weight: 700; color: #5a88c6;}
+.conWrap1 .con3 .boxWrap{margin-top: 60px; overflow: hidden;}
+.conWrap1 .con3 .boxWrap .box{float: left; margin-left: 20px;}
+.conWrap1 .con3 .boxWrap .box .icoBox{width: 380px; height: 282px; background-color: #f2f2f2; text-align: center;}
+.conWrap1 .con3 .boxWrap .box .icoBox .ico{padding-top: 30px;}
+.conWrap1 .con3 .boxWrap .box .icoBox .txt{display: block; padding-top: 8px; font-size: 18px; line-height: 48px; font-weight: 400; color: #777;}
+.conWrap1 .con3 .boxWrap .box1{margin-left: 0;}
+.conWrap1 .con3 .boxWrap .box1 .icoBox .tit{display: block; padding-top: 18px; font-size: 24px; line-height: 48px; font-weight: 400; color: #5a88c6;}
+.conWrap1 .con3 .boxWrap .box2 .icoBox .tit{display: block; padding-top: 18px; font-size: 24px; line-height: 48px; font-weight: 400; color: #b6b6b6;}
+.conWrap1 .con3 .boxWrap .box2 .icoBox .txt span{padding-right: 22px; position: relative;}
+.conWrap1 .con3 .boxWrap .box2 .icoBox .txt span:after{content: ""; display: block; background: url(../../common/images/sub_images/membership/ico_N.png) no-repeat center center; width: 18px; height: 18px; position: absolute; left: 20px; top: 2px;}
+.conWrap1 .con3 .boxWrap .box3 .icoBox .tit{display: block; padding-top: 18px; font-size: 24px; line-height: 48px; font-weight: 400; color: #c5a86f;}
+.conWrap1 .con3 .boxWrap .box3 .icoBox .txt span{padding-right: 22px; position: relative;}
+.conWrap1 .con3 .boxWrap .box3 .icoBox .txt span:after{content: ""; display: block; background: url(../../common/images/sub_images/membership/ico_N.png) no-repeat center center; width: 18px; height: 18px; position: absolute; left: 20px; top: 2px;}
+.conWrap1 .con3 .boxWrap .textBox{width: 380px; height: 397px; padding-top: 30px; box-sizing: border-box; border: 1px solid #f2f2f2; text-align: center;}
+.conWrap1 .con3 .boxWrap .textBox .txt{font-size: 16px; line-height: 24px; color: #777;}
+.conWrap1 .con3 .boxWrap .textBox .txt span{padding-right: 22px; position: relative;}
+.conWrap1 .con3 .boxWrap .textBox .txt span:after{content: ""; display: block; background: url(../../common/images/sub_images/membership/ico_N.png) no-repeat center center; width: 18px; height: 18px; position: absolute; left: 18px; top: 0;}
+.conWrap1 .con4{margin-top: 100px; margin-bottom: 150px;}
+.conWrap1 .con4 .tit{text-align: center; font-size: 30px; line-height: 48px; font-weight: 700; color: #5a88c6;}
+.conWrap1 .con4 .guideBox{margin-top: 60px; width: 1180px; background-color: #f2f2f2; padding: 30px 0 33px 44px; box-sizing: border-box;} 
+.conWrap1 .con4 .guideBox .txt{font-size: 16px; line-height: 32px; position: relative; color: #777;}
+.conWrap1 .con4 .guideBox .txt:after{content: ""; display: block; background: url(../../common/images/sub_images/membership/con4_ico.png) no-repeat center center; width: 5px; height: 5px; position: absolute; left: -15px; top: 12px;}
+.conWrap1 .con4 .guideBox .txt span{font-size: 14px; line-height: 24px; padding-left: 15px;}
+
+/*card*/
+.conWrap2 .con1{margin-top: 100px; margin-bottom: 120px;}
+.conWrap2 .con2 .tit{text-align: center; font-size: 30px; line-height: 48px; font-weight: 700; color: #5a88c6;}
+.conWrap2 .con2 .img{margin-top: 60px;}
+.conWrap2 .con2{margin-bottom: 100px;}
+.conWrap2 .con3 .tit{text-align: center; font-size: 30px; line-height: 48px; font-weight: 700; color: #5a88c6;}
+.conWrap2 .con3 .img{margin-top: 60px;}
+.conWrap2 .con3{margin-bottom: 100px;}
+.conWrap2 .con4 .tit{text-align: center; font-size: 30px; line-height: 48px; font-weight: 700; color: #5a88c6;}
+.conWrap2 .con4 .img{margin-top: 60px;}
+.conWrap2 .con4{margin-bottom: 100px;}
+.conWrap2 .con5 .tit{text-align: center; font-size: 30px; line-height: 48px; font-weight: 700; color: #5a88c6;}
+.conWrap2 .con5 .img{margin-top: 60px;}
+.conWrap2 .con5{margin-bottom: 100px;}
+.conWrap2 .con6{margin-bottom: 150px;}
+.conWrap2 .con6 .guid{border: 1px solid #eff0f2; padding-left: 45px; padding-bottom: 30px;}
+.conWrap2 .con6 .guid .tit{padding-top: 30px; font-size: 16px; font-weight: 500; line-height: 32px; color: #777;}
+.conWrap2 .con6 .guid .txt{padding-left: 20px; font-size: 16px; line-height: 32px; color: #777; position: relative;}
+.conWrap2 .con6 .guid .txt:after{content: ""; display: block; background: url(../../common/images/sub_images/membership/con4_ico.png) no-repeat center center; width: 5px; height: 5px; position: absolute; left: 5px; top: 12px;}
+
+/*cs*/
+.conWrap3 .con1{margin-top: 100px;}
+.conWrap3 .con1 .container{position: relative; padding-bottom: 100px;}
+.conWrap3 .con1 .container:after{content: ""; display: block; width: 100%; height: 1px; background-color: #ddd; position: absolute; left: 0; bottom: 0;}
+.conWrap3 .con1 .tit{padding-bottom: 30px; text-align: center; font-size: 30px; line-height: 48px; font-weight: 700; color: #5a88c6;}
+.conWrap3 .con1 .txt{text-align: center; font-size: 16px; line-height: 24px; color: #777;}
+.conWrap3 .con1 .inquiryImg{padding-top: 60px;}
+.conWrap3 .con1 .inquiryImg img{background-size: cover;}
+.conWrap3 .con2{margin-top: 100px;}
+.conWrap3 .con2 .tit{text-align: center; font-size: 30px; line-height: 48px; font-weight: 700; color: #5a88c6;}
+.conWrap3 .con2 .agreeBox{margin-top: 60px; border: 1px solid #ddd; box-sizing: border-box; font-size: 16px; height: 330px; line-height: 24px; color: #777; padding: 30px; overflow-y: scroll;}
+.conWrap3 .con2 .agreeBox strong{font-weight: 500;}
+.conWrap3 .con2 .agreeCheck{padding-top: 35px; text-align: center; font-size: 18px; line-height: 24px; color: #777; position: relative;}
+.conWrap3 .con2 .agreeCheck input[type=checkbox]{position: absolute; left: -9999px; display: none;}
+.conWrap3 .con2 .agreeCheck label{padding-left: 40px; cursor: pointer;}
+.conWrap3 .con2 .agreeCheck input[type=checkbox]+label::after{content: ""; display: inline-block; width: 25px; height: 25px; background-color: #f2f2f2; border-radius: 5px; position: absolute; left: 530px; top: 33px;}
+.conWrap3 .con2 .agreeCheck input[type=checkbox]:checked+label::after{background: #f2f2f2 url(../../common/images/sub_images/membership/ico_check.png) no-repeat center center;}
+.conWrap3 .con2 .container{position: relative; padding-bottom: 100px;}
+.conWrap3 .con2 .container:after{content: ""; display: block; width: 100%; height: 1px; background-color: #ddd; position: absolute; left: 0; bottom: 0;}
+.conWrap3 .con3{margin-top: 100px; margin-bottom: 150px;}
+.conWrap3 .con3 .tit{text-align: center; font-size: 30px; line-height: 48px; font-weight: 700; color: #5a88c6;}
+.conWrap3 .con3 fieldset{padding-top: 60px;}
+.conWrap3 .con3 .infoBox table{border-collapse: separate; border-spacing: 0 10px; margin: 0 auto;}
+.conWrap3 .con3 .infoBox tbody tr+tr{padding-top: 10px;}
+.conWrap3 .con3 .infoBox tbody tr th{width: 280px; height: 50px; background-color: #aeaeae;}
+.conWrap3 .con3 .infoBox tbody tr th.h200{height: 200px;}
+.conWrap3 .con3 .infoBox tbody tr th span{font-size: 14px; color: #fff;}
+.conWrap3 .con3 .infoBox tbody tr td{padding-left: 20px;}
+.conWrap3 .con3 .infoBox tbody tr td .inpW180 input{width: 180px;}
+.conWrap3 .con3 .infoBox tbody tr td .inpW280 input{width: 280px;}
+.conWrap3 .con3 .infoBox tbody tr td .inpW480 input{width: 480px;}
+.conWrap3 .con3 .infoBox tbody tr td .inpW480H200 input{width: 480px; height: 200px;}
+.conWrap3 .con3 .infoBox tbody tr td input{width: 280px; height: 50px; border: 1px solid #ddd; box-sizing: border-box; padding-left: 20px;}
+.conWrap3 .con3 .infoBox tbody tr td select{width: 180px; height: 50px; border: 1px solid #ddd; padding-left: 10px;}
+.conWrap3 .con3 .infoBox tbody tr td .btnG{background-color: #aeaeae; width: 100px; height: 50px; font-size: 14px; color: #fff; margin-left: -5px;}
+.conWrap3 .con3 .btnArea{text-align: center; margin-top: 60px;}
+.conWrap3 .con3 .btnArea .btB{width: 180px; height: 50px; background-color: #5a88c6; border: 1px solid #5a88c6; font-size: 14px; color: #fff; box-sizing: border-box; margin-right: 16px;}
+.conWrap3 .con3 .btnArea .btW{width: 180px; height: 50px; background-color: #fff; border: 1px solid #e3e3e3; font-size: 14px; color: #5a88c6; box-sizing: border-box;}
+
+/*faq*/
+.conWrap4 .con1{margin-top: 100px; margin-bottom: 150px;}
+.conWrap4 .con1 .tit{text-align: center; font-size: 30px; line-height: 48px; font-weight: 700; color: #5a88c6;}
+.conWrap4 .con1 .tabArea{position: relative; text-align: center; padding-top: 60px;}
+.conWrap4 .con1 .tabArea .tabBtn{display: inline-block; position: relative; margin: 0 auto; white-space: nowrap;}
+.conWrap4 .con1 .tabArea .tabBtn li{display: inline-block;}
+.conWrap4 .con1 .tabArea .tabBtn li+li{margin-left: -6px;}
+.conWrap4 .con1 .tabArea .tabBtn li a{display: inline-block; width: 100px; height: 50px; line-height: 50px; background-color: #ddd; border: 1px solid #f2f2f2; box-sizing: border-box; font-size: 14px; color: #fff;}
+.conWrap4 .con1 .tabArea .tabBtn li a.on{background-color: #5987c5; border: 1px solid #5987c5;}
+.conWrap4 .con1 .tabList{padding-top: 60px;}
+.conWrap4 .con1 .tabList #tabCon1{display: block;}
+.conWrap4 .con1 .tabList .tabCon{display: none;}
+.conWrap4 .con1 .tabList .tabCon .faq-content{border-top: 3px solid #5987c5;}
+.conWrap4 .con1 .tabList .tabCon li{border-bottom: 1px solid #ddd; background-color: #fff;}
+.conWrap4 .con1 .tabList .tabCon li.open{background-color: #f8f8f8;}
+.conWrap4 .con1 .tabList .tabCon li .fre{cursor: pointer; position: relative; padding: 0 100px;}
+.conWrap4 .con1 .tabList .tabCon li .fre::after{content: ""; display: block; width: 27px; height: 27px; background: url(../../common/images/sub_images/membership/4con1_ico_faq.png) no-repeat; position: absolute; right: 40px; top: 50%; margin-top: -15px; transition: transform 0.3s ease;}
+.conWrap4 .con1 .tabList .tabCon li.open .fre::after{transform: rotate(135deg);}
+.conWrap4 .con1 .tabList .tabCon li .fre .q{position: absolute; left: 30px; top: 50%; transform: translateY(-50%);}
+.conWrap4 .con1 .tabList .tabCon li .fre strong{font-size: 18px; line-height: 70px; color: #777;}
+.conWrap4 .con1 .tabList .tabCon li.open .fre strong{font-weight: 500;}
+.conWrap4 .con1 .tabList .tabCon li .ask{border-top: 1px solid #dddddd; position: relative; padding: 0 100px; display: none;}
+.conWrap4 .con1 .tabList .tabCon li .ask .a{position: absolute; left: 30px; top: 50%; transform: translateY(-50%);}
+.conWrap4 .con1 .tabList .tabCon li .ask .ask_text{font-size: 16px; color: #777; padding: 30px 0; line-height: 26px;}
+

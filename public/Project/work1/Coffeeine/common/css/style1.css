@@ -1,0 +1,103 @@
+@charset "UTF-8";
+
+body{overflow-x: hidden;}
+.brandtab{position: relative; width: 100%; margin: 0 auto;}
+.brandtab .tabMenu{background-color: rgba(255, 255, 255, 0.55); position: absolute; left: 50%; bottom: 0; height: 60px; border: 1px solid black; text-align: center; transform: translateX(-50%); box-sizing: border-box;}
+.brandtab .tabMenu ul li{float: left; width: 25%; box-sizing: border-box;}
+.brandtab .tabMenu ul li.on{background-color: #f3f3f3;}
+.brandtab .tabMenu ul li+li{border-left: 1px solid black;}
+.brandtab .tabMenu ul li a{font-size: 22px; font-weight: 500; line-height: 58px;}
+
+/*coffeeine*/
+.conWrap .con1::after{content:""; display: block; clear: both;} 
+.conWrap .con1 h2{font-size: 36px; font-weight: 500; padding-top: 100px;}
+.conWrap .con1 li:nth-child(1){font-size: 20px; font-weight: 500; margin-top: 50px;}
+.conWrap .con1 li:nth-child(2){font-size: 18px; font-weight: 300; line-height: 30px; letter-spacing: 0.1em; float: left; padding-top: 250px;}
+.conWrap .con1 li:nth-child(3){position: relative; float: right;}
+.conWrap .con1 li:nth-child(3)::after{content: ""; display: inline-block; width: 600px; height: 400px; background-color: #f3f3f3; position: absolute; top: 15px; left: 70px; z-index: -1;}
+.conWrap .con2{overflow: hidden;}
+.conWrap .con2 h2{font-size: 36px; font-weight: 500; padding-top: 100px; padding-bottom: 60px;}
+.conWrap .con2 li{float: left;}
+.conWrap .con2 li+li{padding-left: 20px;}
+.conWrap .con2 li span{display: block;}
+.conWrap .con2 li .num{background-color: #000; width: 40px; height: 40px; color: #fff; font-size: 24px; line-height: 40px; text-align: center; float: left; margin-top: 50px;}
+.conWrap .con2 li .txtBx{float: left; margin-top: 65px; margin-left: 18px;}
+.conWrap .con2 li .txtBx .tit{font-size: 24px; font-weight: 500; padding-bottom: 10px;}
+.conWrap .con2 li .txtBx .txt{font-size: 18px; line-height: 25px;}
+.con3{margin-top: 150px; margin-bottom: 150px;}
+.con3::after{content: ""; display: block; background: url(../images/sub_images/brand_ci_bg.png) no-repeat; width: 100%; height: 650px;}
+.con3 .container{position: relative;}
+.con3 .container h2{padding-top: 60px; font-size: 36px; font-weight: 500; padding-bottom: 90px;}
+.con3 .innr{position: absolute; left: 0; top: 0; overflow: hidden;}
+.con3 .innr .logo{position: relative; z-index:3; float: left;}
+.con3 .innr .shadow{display: block; width: 235px; height: 210px; background-color: #d8dadc; position: absolute; top: 40px; left: 25px; z-index:-1;}
+.con3 .innr .ciBx{float: left; padding-left: 45px; padding-right: 150px;}
+.con3 .innr .ciBx h3{font-size: 24px; font-weight: 500; padding-bottom: 80px;}
+.con3 .innr .ciBx p{font-size: 18px; line-height: 35px;}
+.con3 .innr .color{float: right; position: relative; height: 400px;}
+.con3 .innr .color .white{width: 200px; height: 200px; border-radius: 50%; background-color: #fff; text-align: center;}
+.con3 .innr .color .white p{padding-top: 45px; font-size: 24px; font-weight: 500; line-height: 30px;}
+.con3 .innr .color .blue{width: 200px; height: 200px; border-radius: 50%; background-color: #5987c5; text-align: center; position: absolute; top: 120px; left: 0; color: #fff; font-size: 16px;}
+.con3 .innr .color .blue p{position: relative; top: 65px; left: 50%; transform: translateX(-50%); display: block; line-height: 25px; font-weight: 500;}
+.newsTab{margin-top: 100px;}
+.newsTab h2{padding-left: 20px; height: 70px; background-color: #5987c5; color: #fff; font-size: 30px; line-height: 70px; font-weight: 500; position: relative;}
+.newsTab h2::after{content: ""; display: block; background: url(../images/sub_images/news_ico1.png)no-repeat; width: 60px; height: 42px; position: absolute; top: 50%; left: 200px; transform: translateY(-50%);}
+.newsTab .news{overflow: hidden; margin-top: 100px; border-bottom: 2px solid #d8dadc; padding-bottom: 100px;}
+.newsTab .news li{width: 280px; height: 250px; background-color: #f7f7f7; float: left; padding: 40px; box-sizing: border-box; white-space:nowrap;}
+.newsTab .news li+li{margin-left: 20px;}
+.newsTab .news li:nth-child(5){margin-left: 0; margin-top: 30px;}
+.newsTab .news li:nth-child(6){margin-top: 30px;}
+.newsTab .news span{display: block;}
+.newsTab .news .tit{font-size: 22px; font-weight: 700; color: #5987c5; height: 62px;} 
+.newsTab .news .date{font-size: 18px; height: 50px;}
+.newsTab .news .txt{font-size: 20px;}
+.newsTab .page{margin-top: 50px;}
+.newsTab .page li{width: 50px; height: 50px; background-color: #5987c5; text-align: center; position: relative; left: 50%; transform: translateX(-50%); margin-bottom: 150px;}
+.newsTab .page li a{color: #fff; font-size: 24px; font-weight: 500; line-height: 50px;}
+.conWrap{position: relative; margin: 0;}
+.conWrap > .mapWrap{position: relative;}
+.mapWrap h2{text-align: center; font-size: 30px; font-weight: 500; margin-top: 100px; margin-bottom: 50px;}
+.mapWrap #map{width: 100%; height: 500px; padding-bottom: 75px;}
+.mapWrap .addr{position: absolute; bottom: -75px; left: 50%; transform: translateX(-50%); z-index: 50; overflow: visible;}
+.mapWrap .titBx{position: absolute; top:0; left: 0; z-index: 100; text-align: center;}
+.mapWrap .titBx::after{content:""; display: block; width: 1px; height: 105px; background-color: #fff; position: absolute; top:50%; left: 50%; transform: translate(-50% , -50%);}
+.mapWrap .titBx span{display: block; float: left}
+.mapWrap .titBx .tit{width: 230px; font-size: 24px; line-height: 150px; color: #fff;}
+.mapWrap .titBx .txt{font-size:18px; line-height: 150px; color: #fff; margin-left: 60px;}
+.public{display: inline-block; position: relative; top:0; left: 50%; transform: translateX(-50%); margin-top: 150px; margin-bottom: 250px;}
+.public::after{content: ""; display: block; clear: both;}
+.public .sub{float: left; margin-right: 220px;}
+.public .subIco{position: relative;}
+.public .subIco::after{content: ""; display: block; width: 2px; height: 180px; background-color: #e18713; position: absolute; left: 50%; transform: translateX(-50%);}
+.public .subIco span{width: 20px; height: 20px; border-radius: 50%; background-color: #e18713; position: absolute; left: 50%; transform: translateX(-50%); bottom: -180px;}
+.public .subIco span::after{content: "3호선 압구정역"; display: block; clear: both; width: 180px; padding-left: 30px; color:#e18713;}
+.public .bus{float: left;position: relative;}
+.public .bus .busIco{position: relative;}
+.public .bus .busIco::after{content: ""; display: block; width: 2px; height: 180px; background-color: #40cf29; position: absolute; left: 50%; transform: translateX(-50%);}
+.public .bus .busIco .green{width: 20px; height: 20px; border-radius: 50%; background-color: #40cf29; position: absolute; left: 50%; transform: translateX(-50%); top: 60px;}
+.public .bus .busIco .green::after{content: "3011번 버스"; display: block; clear: both;width: 180px;padding-left: 30px;color: #40cf29;}
+.public .bus .busIco .blue{width: 20px; height: 20px; border-radius: 50%; background-color: #1739e8; position: absolute; left: 50%; transform: translateX(-50%); top:120px; z-index: 10;}
+.public .bus .busIco .blue::after{content:"141번 버스"; display: block; clear: both; width: 180px; padding-left: 30px; color:#1739e8;}
+.public .bus .busIco .red{width: 20px; height: 20px; border-radius: 50%; background-color:#e11321; position: absolute; left: 50%; transform: translateX(-50%); top:180px; z-index: 10;}
+.public .bus .busIco .red::after{content: "3600번 버스"; display: block; clear: both; width: 180px; padding-left: 30px; color:#e11321;}
+
+.part{padding-top: 100px; padding-bottom: 100px; position: relative;}
+.part .want{width: 250px; height: 80px; background-color: #7d9fcc; border-radius: 30px;color: #fff; line-height: 80px; font-size: 24px; font-weight: 500; text-align: center; position: absolute; left: 50%; transform: translateX(-50%); margin-top: 85px;}
+.part .txtBx{width: 1180px; text-align: center; border-top: 2px solid #7d9fcc; border-bottom: 2px solid #7d9fcc; padding-top: 100px; margin-top:125px;}
+.part .txtBx p{font-size: 24px; font-weight: 500; line-height: 40px; margin-bottom: 55px;}
+.part .txtBx p strong a{color: #7d9fcc;}
+.part .detail{border: 1px solid #aeaeae; background-color: #f9f9f9; font-size: 16px; height: 400px; line-height: 30px; overflow-y: scroll; display: none; padding: 30px; box-sizing: border-box; color: #777;}
+.part .detail strong{font-size: 18px; line-height: 40px;}
+form fieldset{border: 0;width: 780px; margin: 0 auto;}
+form legend{font-size: 30px; font-weight: 700; color: #5a88c6; text-align: center; margin-bottom: 55px;}
+.inf tr th{background-color: #aeaeae; width: 280px; height: 50px; color: #fff; font-size: 16px; font-weight: 400;}
+.inf tr td input{height: 50px; border: 1px solid #ddd; font-size: 16px; font-weight: 400; text-align: center; line-height: 50px;}
+.inf tr .name{width: 180px;}
+.inf tr .tel{width: 100px;}
+.inf tr .mail{width: 250px;}
+.inf tr .txt{height: 200px;}
+.inf tr input.txt{width: 550px;}
+.inf tr td select{width: 280px; height: 50px; border: 1px solid #ddd; font-size: 16px; font-weight: 400; text-align: center; line-height: 50px;}
+.inf .btn{text-align: center; margin-bottom: 150px;}
+.inf button{width: 180px; height: 50px; background-color: #fff; border: 1px solid #ddd; color: #5a88c6; margin-top: 60px; cursor: pointer;}
+.inf button.on{background-color: #5a88c6; color: #fff; border: 0;}

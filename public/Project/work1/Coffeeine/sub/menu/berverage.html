@@ -1,0 +1,809 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>음료</title>
+    <link rel="SHORTCUT ICON" href="../../common/images/favicon.ico">
+    <link href="../../common/css/style2.css" rel="stylesheet">
+    <link href="../../common/css/common.css"rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="../../common/js/common.js"></script>
+    <script src="../../common/js/main.js"></script>    
+    <script src="../../common/js/sub.js"></script> 
+    
+</head>
+<body>
+    <div id="util">
+        <div class="container">
+            <div class="right">
+                <a class="login" href="#">로그인</a>
+                <a class="join" href="#">회원가입</a>
+            </div>
+        </div>
+    </div>
+    <header id="header">
+        <div class="container">
+            <h1 class="logo">
+                <a href="../../main/index.html">
+                    <img src="../../common/images/logo.png" alt="커피니 로고">
+                </a>
+            </h1>
+            <nav>
+                <ul id="gnb">
+                    <li>
+                        <a href="#">COFFEEINE</a>
+                        <div class="towD">
+                            <ul>
+                                <li><a href="../../sub/coffeeine/brandstory.html">브랜드 소개</a></li>
+                                <li><a href="../../sub/coffeeine/coffeeineNews.html">커피니 소식</a></li>
+                                <li><a href="../../sub/coffeeine/Affiliate.html">제휴 문의</a></li>
+                                <li><a href="../../sub/coffeeine/directions.html">오시는 길</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">MENU</a>
+                        <div class="towD">
+                            <ul>
+                                <li><a href="../../sub/menu/new.html">신제품</a></li>
+                                <li><a href="../../sub/menu/berverage.html">음료</a></li>
+                                <li><a href="../../sub/menu/dessert.html">디저트</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">MEMBERSHIP</a>
+                        <div class="towD">
+                            <ul>
+                                <li><a href="../../sub/membership/members.html">커피:니 멤버스</a></li>
+                                <li><a href="../../sub/membership/card.html">커피:니 카드</a></li>
+                                <li><a href="../../sub/membership/cs.html">고객의 소리</a></li>
+                                <li><a href="../../sub/membership/faq.html">FAQ</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">STORE</a>
+                        <div class="towD">
+                            <ul>
+                                <li><a href="../../sub/store/store.html">매장 안내</a></li>
+                                <li><a href="../../sub/store/newstore.html">신규 매장</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">FRANCHISE</a>
+                        <div class="towD">
+                            <ul>
+                                <li><a href="../../sub/franchise/franguide.html">가맹 안내</a></li>
+                                <li><a href="../../sub/franchise/francounsel.html">가맹 상담</a></li>
+                                <li><a href="../../sub/franchise/franrental.html">렌탈 서비스</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+            <div class="gnbBg"></div>
+        </div>
+    </header>
+    <div class="tab">
+        <img src="../../common/images/sub_images/tab_bg.png" alt="탭배경">
+        <div class="tabMenu container">
+            <ul>
+                <li><a href="../menu/new.html">New</a></li>
+                <li class="on"><a href="#">Beverage</a></li>
+                <li><a href="../menu/dessert.html">Dssert</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="conWrap container">
+        <div class="menu">
+            <div class="row1 row">
+                <ul>
+                    <li>
+                        <a href="#">
+                           <img src="../../common/images/sub_images/beverage/row1_img1.png">
+                           <span>HOT 아메리카노</span>
+                        </a>
+                        <div class="detail">
+                            <div class="detailCon">
+                                <h2>HOT 아메리카노
+                                    <span>HOT Americano</span>
+                                </h2>
+                                <p> 시그니처 블렌드로 추출한 에스프레소로 만든
+                                부드럽고 깔끔한 가장 대중적인 커피</p>
+                            </div>
+                            <div class="proCon">
+                                <dl>
+                                    <dt>칼로리</dt>
+                                    <dd>(37kcal)</dd>
+                                </dl>
+                                <dl>
+                                    <dt>나트륨</dt>
+                                    <dd>(1.8mg)</dd>
+                                </dl>
+                                <dl>
+                                    <dt>포화지방</dt>
+                                    <dd>(0.2g)</dd>
+                                </dl>
+                                <dl>
+                                    <dt>당류</dt>
+                                    <dd>(0g)</dd>
+                                </dl>
+                                <dl>
+                                    <dt>단백질</dt>
+                                    <dd>(0.1g)</dd>
+                                </dl>
+                                <dl>
+                                    <dt>카페인</dt>
+                                    <dd>(93mg)</dd>
+                                </dl>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">
+                           <img src="../../common/images/sub_images/beverage/row1_img2.png">
+                           <span>ICE 아메리카노</span>
+                        </a>
+                        <div class="detail">
+                            <div class="detailCon">
+                                <h2>ICE 아메리카노
+                                    <span>ICE Americano</span>
+                                </h2>
+                                <p> 시그니처 블렌드로 추출한 에스프레소로 만든
+                                부드럽고 깔끔한 가장 대중적인 커피</p>
+                            </div>
+                            <div class="proCon">
+                                <dl>
+                                    <dt>칼로리</dt>
+                                    <dd>(37kcal)</dd>
+                                </dl>
+                                <dl>
+                                    <dt>나트륨</dt>
+                                    <dd>(1.8mg)</dd>
+                                </dl>
+                                <dl>
+                                    <dt>포화지방</dt>
+                                    <dd>(0.2g)</dd>
+                                </dl>
+                                <dl>
+                                    <dt>당류</dt>
+                                    <dd>(0g)</dd>
+                                </dl>
+                                <dl>
+                                    <dt>단백질</dt>
+                                    <dd>(0.1g)</dd>
+                                </dl>
+                                <dl>
+                                    <dt>카페인</dt>
+                                    <dd>(93mg)</dd>
+                                </dl>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">
+                           <img src="../../common/images/sub_images/beverage/row1_img3.png">
+                           <span>HOT 카페라떼</span>
+                        </a>
+                        <div class="detail">
+                            <div class="detailCon">
+                                <h2>HOT 카페라떼
+                                    <span>HOT Cafe Latte </span>
+                                </h2>
+                                <p>에스프레소와 부드러운 우유의 조화가 매력적인 커피</p>
+                            </div>
+                            <div class="proCon">
+                                <dl>
+                                    <dt>칼로리</dt>
+                                    <dd>(211kcal)</dd>
+                                </dl>
+                                <dl>
+                                    <dt>나트륨</dt>
+                                    <dd>(146.8mg)</dd>
+                                </dl>
+                                <dl>
+                                    <dt>포화지방</dt>
+                                    <dd>(5.7g)</dd>
+                                </dl>
+                                <dl>
+                                    <dt>당류</dt>
+                                    <dd>(14.5g)</dd>
+                                </dl>
+                                <dl>
+                                    <dt>단백질</dt>
+                                    <dd>(8.8g)</dd>
+                                </dl>
+                                <dl>
+                                    <dt>카페인</dt>
+                                    <dd>(93mg)</dd>
+                                </dl>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">
+                           <img src="../../common/images/sub_images/beverage/row1_img4.png">
+                           <span>ICE 카페라떼</span>
+                        </a>
+                        <div class="detail">
+                            <div class="detailCon">
+                                <h2>ICE 카페라떼
+                                    <span>ICE Cafe Latte</span>
+                                </h2>
+                                <p> 에스프레소와 부드러운 우유의 조화가 매력적인 커피</p>
+                            </div>
+                            <div class="proCon">
+                                <dl>
+                                    <dt>칼로리</dt>
+                                    <dd>(139kcal)</dd>
+                                </dl>
+                                <dl>
+                                    <dt>나트륨</dt>
+                                    <dd>(86.8mg)</dd>
+                                </dl>
+                                <dl>
+                                    <dt>포화지방</dt>
+                                    <dd>(3.4g)</dd>
+                                </dl>
+                                <dl>
+                                    <dt>당류</dt>
+                                    <dd>(8.5g)</dd>
+                                </dl>
+                                <dl>
+                                    <dt>단백질</dt>
+                                    <dd>(5.2g)</dd>
+                                </dl>
+                                <dl>
+                                    <dt>카페인</dt>
+                                    <dd>(93mg)</dd>
+                                </dl>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="row2 row">
+                <ul>
+                    <li>
+                        <a href="#">
+                            <img src="../../common/images/sub_images/beverage/row2_img1.png">
+                            <span>HOT 카라멜 마끼아또</span>
+                        </a>
+                        <div class="detail">
+                            <div class="detailCon">
+                                <h2>HOT 카라멜 마끼아또
+                                    <span>HOT Caramel macchiato</span>
+                                </h2>
+                                <p>에스프레소를 바닐라 향이 가득한 부드러운 우유에 점을 찍듯이 부은 후 달콤한 카라멜 소스를 드리즐한 커피</p>
+                            </div>
+                            <div class="proCon">
+                                <dl>
+                                    <dt>칼로리</dt>
+                                    <dd>(279.5kcal)</dd>
+                                </dl>
+                                <dl>
+                                    <dt>나트륨</dt>
+                                    <dd>(143.68mg)</dd>
+                                </dl>
+                                <dl>
+                                    <dt>포화지방</dt>
+                                    <dd>(5.5g)</dd>
+                                </dl>
+                                <dl>
+                                    <dt>당류</dt>
+                                    <dd>(32.6g)</dd>
+                                </dl>
+                                <dl>
+                                    <dt>단백질</dt>
+                                    <dd>(8.25g)</dd>
+                                </dl>
+                                <dl>
+                                    <dt>카페인</dt>
+                                    <dd>(93mg)</dd>
+                                </dl>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="../../common/images/sub_images/beverage/row2_img2.png">
+                            <span>ICE 카라멜 마끼아또</span>
+                        </a>
+                        <div class="detail">
+                            <div class="detailCon">
+                                <h2>ICE 아메리카노
+                                    <span>ICE Caramel macchiato</span>
+                                </h2>
+                                <p> 시그니처 블렌드로 추출한 에스프레소로 만든
+                                부드럽고 깔끔한 가장 대중적인 커피</p>
+                            </div>
+                            <div class="proCon">
+                                <dl>
+                                    <dt>칼로리</dt>
+                                    <dd>(207.5kcal)</dd>
+                                </dl>
+                                <dl>
+                                    <dt>나트륨</dt>
+                                    <dd>(83.68mg)</dd>
+                                </dl>
+                                <dl>
+                                    <dt>포화지방</dt>
+                                    <dd>(3.2g)</dd>
+                                </dl>
+                                <dl>
+                                    <dt>당류</dt>
+                                    <dd>(26.6g)</dd>
+                                </dl>
+                                <dl>
+                                    <dt>단백질</dt>
+                                    <dd>(4.65g)</dd>
+                                </dl>
+                                <dl>
+                                    <dt>카페인</dt>
+                                    <dd>(93mg)</dd>
+                                </dl>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="../../common/images/sub_images/beverage/row2_img3.png">
+                            <span>HOT 바닐라라떼</span>
+                        </a>
+                        <div class="detail">
+                            <div class="detailCon">
+                                <h2>HOT 바닐라라떼
+                                    <span>HOT Vanilla latte</span>
+                                </h2>
+                                <p>에스프레소에 부드러운 우유와 달콤한 바닐라 향이 가득한 커피</p>
+                            </div>
+                            <div class="proCon">
+                                <dl>
+                                    <dt>칼로리</dt>
+                                    <dd>(263kcal)</dd>
+                                </dl>
+                                <dl>
+                                    <dt>나트륨</dt>
+                                    <dd>(138.18mg)</dd>
+                                </dl>
+                                <dl>
+                                    <dt>포화지방</dt>
+                                    <dd>(5.3g)</dd>
+                                </dl>
+                                <dl>
+                                    <dt>당류</dt>
+                                    <dd>(29.5g)</dd>
+                                </dl>
+                                <dl>
+                                    <dt>단백질</dt>
+                                    <dd>(8.2g)</dd>
+                                </dl>
+                                <dl>
+                                    <dt>카페인</dt>
+                                    <dd>(93mg)</dd>
+                                </dl>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">
+                           <img src="../../common/images/sub_images/beverage/row2_img4.png">
+                           <span>ICE 바닐라라떼</span>
+                        </a>
+                        <div class="detail">
+                            <div class="detailCon">
+                                <h2>ICE 바닐라라떼
+                                    <span>HOT Vanilla latte</span>
+                                </h2>
+                                <p> 에스프레소에 부드러운 우유와 달콤한 바닐라 향이 가득한 커피</p>
+                            </div>
+                            <div class="proCon">
+                                <dl>
+                                    <dt>칼로리</dt>
+                                    <dd>(191kcal)</dd>
+                                </dl>
+                                <dl>
+                                    <dt>나트륨</dt>
+                                    <dd>(78.18mg)</dd>
+                                </dl>
+                                <dl>
+                                    <dt>포화지방</dt>
+                                    <dd>(3g)</dd>
+                                </dl>
+                                <dl>
+                                    <dt>당류</dt>
+                                    <dd>(23.5g)</dd>
+                                </dl>
+                                <dl>
+                                    <dt>단백질</dt>
+                                    <dd>(4.6g)</dd>
+                                </dl>
+                                <dl>
+                                    <dt>카페인</dt>
+                                    <dd>(93mg)</dd>
+                                </dl>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="btn">
+                <button type="button" class="moreBtn">더보기</button>
+            </div>
+            <div class="row3 row hidden">
+                <ul>
+                    <li>
+                        <a href="#">
+                           <img src="../../common/images/sub_images/beverage/row3_img1.png">
+                           <span>ICE 자몽에이드</span>
+                        </a>
+                        <div class="detail">
+                            <div class="detailCon">
+                                <h2>ICE 자몽에이드
+                                    <span>ICE Grapefruit Ade</span>
+                                </h2>
+                                <p>새콤 쌉싸름한 자몽과 탄산수가 어우러진 스파클링 음료</p>
+                            </div>
+                            <div class="proCon">
+                                <dl>
+                                    <dt>칼로리</dt>
+                                    <dd>(84kcal)</dd>
+                                </dl>
+                                <dl>
+                                    <dt>나트륨</dt>
+                                    <dd>(10mg)</dd>
+                                </dl>
+                                <dl>
+                                    <dt>포화지방</dt>
+                                    <dd>(0g)</dd>
+                                </dl>
+                                <dl>
+                                    <dt>당류</dt>
+                                    <dd>(19.6g)</dd>
+                                </dl>
+                                <dl>
+                                    <dt>단백질</dt>
+                                    <dd>(0.4g)</dd>
+                                </dl>
+                                <dl>
+                                    <dt>카페인</dt>
+                                    <dd>(0mg)</dd>
+                                </dl>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="../../common/images/sub_images/beverage/row3_img2.png">
+                            <span>ICE 청포도에이드</span>
+                        </a>
+                        <div class="detail">
+                            <div class="detailCon">
+                                <h2>ICE 청포도에이드
+                                    <span>ICE Green grape</span>
+                                </h2>
+                                <p>상큼한 청포도의 과육이 살아 있는 스파클링 음료</p>
+                            </div>
+                            <div class="proCon">
+                                <dl>
+                                    <dt>칼로리</dt>
+                                    <dd>(118.3kcal)</dd>
+                                </dl>
+                                <dl>
+                                    <dt>나트륨</dt>
+                                    <dd>(6mg)</dd>
+                                </dl>
+                                <dl>
+                                    <dt>포화지방</dt>
+                                    <dd>(0g)</dd>
+                                </dl>
+                                <dl>
+                                    <dt>당류</dt>
+                                    <dd>(27.5g)</dd>
+                                </dl>
+                                <dl>
+                                    <dt>단백질</dt>
+                                    <dd>(0g)</dd>
+                                </dl>
+                                <dl>
+                                    <dt>카페인</dt>
+                                    <dd>(0mg)</dd>
+                                </dl>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="../../common/images/sub_images/beverage/row3_img3.png">
+                            <span>ICE 콜드브루</span>
+                        </a>
+                        <div class="detail">
+                            <div class="detailCon">
+                                <h2>ICE 콜드브루
+                                    <span>ICE Cold brew</span>
+                                </h2>
+                                <p>원두를 저온 장시간 추출하여 풍부한 맛을 더욱 끌어낸 콜드브루 커피</p>
+                            </div>
+                            <div class="proCon">
+                                <dl>
+                                    <dt>칼로리</dt>
+                                    <dd>(37kcal)</dd>
+                                </dl>
+                                <dl>
+                                    <dt>나트륨</dt>
+                                    <dd>(1.8mg)</dd>
+                                </dl>
+                                <dl>
+                                    <dt>포화지방</dt>
+                                    <dd>(0.2g)</dd>
+                                </dl>
+                                <dl>
+                                    <dt>당류</dt>
+                                    <dd>(0g)</dd>
+                                </dl>
+                                <dl>
+                                    <dt>단백질</dt>
+                                    <dd>(0.1g)</dd>
+                                </dl>
+                                <dl>
+                                    <dt>카페인</dt>
+                                    <dd>(93mg)</dd>
+                                </dl>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">
+                           <img src="../../common/images/sub_images/beverage/row3_img4.png">
+                           <span>ICE 콜드브루라떼</span>
+                        </a>
+                        <div class="detail">
+                            <div class="detailCon">
+                                <h2>ICE 콜드브루라떼
+                                    <span>ICE Cold brew Latte</span>
+                                </h2>
+                                <p> 시그니처 블렌드로 추출한 에스프레소로 만든
+                                부드럽고 깔끔한 가장 대중적인 커피</p>
+                            </div>
+                            <div class="proCon">
+                                <dl>
+                                    <dt>칼로리</dt>
+                                    <dd>(139kcal)</dd>
+                                </dl>
+                                <dl>
+                                    <dt>나트륨</dt>
+                                    <dd>(86.8mg)</dd>
+                                </dl>
+                                <dl>
+                                    <dt>포화지방</dt>
+                                    <dd>(3.4g)</dd>
+                                </dl>
+                                <dl>
+                                    <dt>당류</dt>
+                                    <dd>(8.5g)</dd>
+                                </dl>
+                                <dl>
+                                    <dt>단백질</dt>
+                                    <dd>(5.2g)</dd>
+                                </dl>
+                                <dl>
+                                    <dt>카페인</dt>
+                                    <dd>(93mg)</dd>
+                                </dl>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="row4 row hidden">
+                <ul>
+                    <li>
+                        <a href="#">
+                           <img src="../../common/images/sub_images/beverage/row4_img1.png">
+                           <span>HOT 얼그레이</span>
+                        </a>
+                        <div class="detail">
+                            <div class="detailCon">
+                                <h2>HOT 얼그레이
+                                    <span>HOT Earl Gray</span>
+                                </h2>
+                                <p> 더 깊고 진한 향미가 지속되는 얼그레이 향이 특징인 대표적인 홍차</p>
+                            </div>
+                            <div class="proCon">
+                                <dl>
+                                    <dt>칼로리</dt>
+                                    <dd>(2kcal)</dd>
+                                </dl>
+                                <dl>
+                                    <dt>나트륨</dt>
+                                    <dd>(5mg)</dd>
+                                </dl>
+                                <dl>
+                                    <dt>포화지방</dt>
+                                    <dd>(0g)</dd>
+                                </dl>
+                                <dl>
+                                    <dt>당류</dt>
+                                    <dd>(0g)</dd>
+                                </dl>
+                                <dl>
+                                    <dt>단백질</dt>
+                                    <dd>(0.1g)</dd>
+                                </dl>
+                                <dl>
+                                    <dt>카페인</dt>
+                                    <dd>(38.2mg)</dd>
+                                </dl>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">
+                           <img src="../../common/images/sub_images/beverage/row4_img2.png">
+                           <span>HOT  캐모마일</span>
+                        </a>
+                        <div class="detail">
+                            <div class="detailCon">
+                                <h2>HOT  캐모마일
+                                    <span>HOT Chamomile</span>
+                                </h2>
+                                <p>향긋한 꽃향이 매력적인 꽃차</p>
+                            </div>
+                            <div class="proCon">
+                                <dl>
+                                    <dt>칼로리</dt>
+                                    <dd>(10.4kcal)</dd>
+                                </dl>
+                                <dl>
+                                    <dt>나트륨</dt>
+                                    <dd>(8.2mg)</dd>
+                                </dl>
+                                <dl>
+                                    <dt>포화지방</dt>
+                                    <dd>(0.02g)</dd>
+                                </dl>
+                                <dl>
+                                    <dt>당류</dt>
+                                    <dd>(0g)</dd>
+                                </dl>
+                                <dl>
+                                    <dt>단백질</dt>
+                                    <dd>(0.2g)</dd>
+                                </dl>
+                                <dl>
+                                    <dt>카페인</dt>
+                                    <dd>(0mg)</dd>
+                                </dl>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">
+                           <img src="../../common/images/sub_images/beverage/row4_img3.png">
+                           <span>HOT  페퍼민트</span>
+                        </a>
+                        <div class="detail">
+                            <div class="detailCon">
+                                <h2>HOT  페퍼민트
+                                    <span>HOT Peppermint</span>
+                                </h2>
+                                <p>상쾌함이 매력적인 허브차</p>
+                            </div>
+                            <div class="proCon">
+                                <dl>
+                                    <dt>칼로리</dt>
+                                    <dd>(5.1kcal)</dd>
+                                </dl>
+                                <dl>
+                                    <dt>나트륨</dt>
+                                    <dd>(1.8mg)</dd>
+                                </dl>
+                                <dl>
+                                    <dt>포화지방</dt>
+                                    <dd>(0g)</dd>
+                                </dl>
+                                <dl>
+                                    <dt>당류</dt>
+                                    <dd>(0g)</dd>
+                                </dl>
+                                <dl>
+                                    <dt>단백질</dt>
+                                    <dd>(0.1g)</dd>
+                                </dl>
+                                <dl>
+                                    <dt>카페인</dt>
+                                    <dd>(0mg)</dd>
+                                </dl>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">
+                           <img src="../../common/images/sub_images/beverage/row4_img4.png">
+                           <span>HOT 잉글리쉬블랙퍼스트</span>
+                        </a>
+                        <div class="detail">
+                            <div class="detailCon">
+                                <h2>HOT 잉글리쉬블랙퍼스트
+                                    <span>HOT English Breakfast Tea</span>
+                                </h2>
+                                <p>더 깊고 진한 향미가 지속되는 대표적인 홍차</p>
+                            </div>
+                            <div class="proCon">
+                                <dl>
+                                    <dt>칼로리</dt>
+                                    <dd>(2kcal)</dd>
+                                </dl>
+                                <dl>
+                                    <dt>나트륨</dt>
+                                    <dd>(5mg)</dd>
+                                </dl>
+                                <dl>
+                                    <dt>포화지방</dt>
+                                    <dd>(0g)</dd>
+                                </dl>
+                                <dl>
+                                    <dt>당류</dt>
+                                    <dd>(0g)</dd>
+                                </dl>
+                                <dl>
+                                    <dt>단백질</dt>
+                                    <dd>(0.1g)</dd>
+                                </dl>
+                                <dl>
+                                    <dt>카페인</dt>
+                                    <dd>(38.2mg)</dd>
+                                </dl>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>  
+    <footer id="footer">
+        <div class="ftrTop">
+            <div class="container">
+                <div class="links">
+                    <a href="#">회사소개</a>
+                    <a href="#">인재채용</a>
+                    <a href="#">개인정보 취급방침</a>
+                    <a href="#">이용약관</a>
+                    <a href="#">이메일 무단수집 금지</a>
+                    <a href="#">제휴문의</a>
+                    <a href="#">고객의 소리</a>
+                </div>
+                <div class="sns">
+                    <a href="https://www.facebook.com/coffeenie53/" target="_blank">
+                        <img src="../../common/images/ft-ico1.png" alt="페이스북">
+                    </a>
+                    <a href="https://twitter.com/CoffeenieKorea" target="_blank">
+                        <img src="../../common/images/ft-ico2.png" alt="트위터">
+                    </a>
+                    <a href="https://www.instagram.com/coffeenie_cafe/?hl=ko" target="_blank">
+                        <img src="../../common/images/ft-ico3.png" alt="인스타그램">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="ftrBottom">
+            <div class="container">
+                <div class="ftrLogo">
+                    <img src="../../common/images/footer_logo.png" alt="footer 로고">
+                </div>
+                <div class="txt">
+                    <address>
+                        서울시 강남구 언주로 866(신사동636-2) 커피:니 본사<br>
+                        TEL 02-546-1325 FAX 02-546-1335
+                    </address>
+                    <p class="copyright">
+                        COPYRIGHT(C) 2012 COFFEENIE ALL RIGHTS RESERVED.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>  
+</body>
+</html>

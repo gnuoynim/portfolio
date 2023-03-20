@@ -1,0 +1,125 @@
+@charset "UTF-8";
+
+/*franchise*/
+.tab{position: relative;}
+.tab .tabMenu{background-color: rgba(255, 255, 255, 0.55); position: absolute; left: 50%; bottom:0; height: 60px; border: 1px solid black; text-align: center; transform: translateX(-50%); box-sizing: border-box;}
+.tab .tabMenu ul li{float: left; width: 33.333%; box-sizing: border-box;}
+.tab .tabMenu ul li.on{background-color:#f3f3f3;}
+.tab .tabMenu ul li+li{border-left: 1px solid black;}
+.tab .tabMenu ul li a{font-size: 22px; font-weight: 500; line-height: 58px;}
+
+/*franchise-guide*/
+.conWrap1{}
+.conWrap1 .container .con1{margin-top: 100px; position: relative; padding-bottom: 100px;}
+.conWrap1 .container .con1::after{content: ""; display: block; width: 100%; height: 1px; background-color: #ddd; position: absolute; left: 0; bottom: 0;}
+.conWrap1 .con1 .tit{text-align: center; font-size: 30px; line-height: 48px; font-weight: 700; color: #5a88c6;}
+.conWrap1 .con1 ul{margin-top: 60px;}
+.conWrap1 .con1 ul li{overflow: hidden; display: inline-block; margin-left: 55px;}
+.conWrap1 .con1 ul li:nth-child(1),
+.conWrap1 .con1 ul li:nth-child(4){margin-left: 0;}
+.conWrap1 .con1 ul li:nth-child(4),
+.conWrap1 .con1 ul li:nth-child(5){margin-top: 16px;}
+.conWrap1 .con1 ul li .ico{float: left; padding-right: 20px; padding-left: 20px;}
+.conWrap1 .con1 ul li .ico img{}
+.conWrap1 .con1 ul li .txtBox{float: left; width: 210px; height: 100px; padding-top: 10px;}
+.conWrap1 .con1 ul li .txtBox p{font-size: 14px; font-weight: 700; margin-bottom: 14px;}
+.conWrap1 .con1 ul li .txtBox span{font-size: 14px; line-height: 18px;}
+.conWrap1 .container .con2{margin-top: 100px; position: relative; padding-bottom: 100px;}
+.conWrap1 .container .con2::after{content: ""; display: block; width: 100%; height: 1px; background-color: #ddd; position: absolute; left: 0; bottom: 0;}
+.conWrap1 .con2 .tit{text-align: center; font-size: 30px; line-height: 48px; font-weight: 700; color: #5a88c6;}
+.conWrap1 .con2 .franStep{margin-top: 60px; overflow: hidden;}
+.conWrap1 .con2 .franStep li{float: left; margin-left: 20px; margin-top: 20px; padding: 20px; background-color: #f8f8f8; width: 280px; height: 350px; box-sizing: border-box; text-align: center;}
+.conWrap1 .con2 .franStep li:nth-child(-n+4){margin-top: 0;}
+.conWrap1 .con2 .franStep li:nth-child(1),
+.conWrap1 .con2 .franStep li:nth-child(5){margin-left: 0;}
+.conWrap1 .con2 .franStep li .title{font-size: 24px; font-weight: 700; color: #5a88c6; padding-bottom: 15px; position: relative;}
+.conWrap1 .con2 .franStep li .title::after{content: ""; display: block; width: 100%; height: 1px; background-color: #98bdf0; position: absolute; left: 0; bottom: 0;}
+.conWrap1 .con2 .franStep li .ico{padding: 20px 0;}
+.conWrap1 .con2 .franStep li strong{display: block; padding-bottom: 10px;}
+.conWrap1 .con2 .franStep li .txt{font-size: 14px; color: #777; line-height: 24px;}
+.conWrap1 .con3{margin-top: 100px; margin-bottom: 150px; overflow: hidden;}
+.conWrap1 .con3 .leftImg{float: left;}
+.conWrap1 .con3 .righttImg{float: left; margin-left: 20px;}
+.conWrap1 .con3 .title{font-weight: 500; color: #777; padding-bottom: 20px;}
+
+/*franchise-counsel*/
+.conWrap2{margin-top: 100px;}
+.conWrap2 .con1 .tit{padding-bottom: 60px; text-align: center; font-size: 30px; line-height: 48px; font-weight: 700; color: #5a88c6;}
+.conWrap2 .con1 .agreeBox{border: 1px solid #ddd; box-sizing: border-box; font-size: 16px; height: 330px; line-height: 24px; color: #777; padding: 30px; overflow-y: scroll;}
+.conWrap2 .con1 .agreeBox strong{font-weight: 500;}
+.conWrap2 .con1 .agreeCheck{padding-top: 35px; text-align: center; font-size: 18px; line-height: 24px; color: #777; position: relative;}
+.conWrap2 .con1 .agreeCheck input[type=checkbox]{position: absolute; left: -9999px; display: none;}
+.conWrap2 .con1 .agreeCheck label{padding-left: 40px; cursor: pointer;}
+.conWrap2 .con1 .agreeCheck input[type=checkbox]+label::after{content: ""; display: inline-block; width: 25px; height: 25px; background-color: #f2f2f2; border-radius: 5px; position: absolute; left: 530px; top: 33px;}
+.conWrap2 .con1 .agreeCheck input[type=checkbox]:checked+label::after{background: #f2f2f2 url(../../common/images/sub_images/franchise/ico_check.png) no-repeat center center;}
+.conWrap2 .container .con1{position: relative; padding-bottom: 100px;}
+.conWrap2 .container .con1:after{content: ""; display: block; width: 100%; height: 1px; background-color: #ddd; position: absolute; left: 0; bottom: 0;}
+.conWrap2 .con2{margin-top: 100px; margin-bottom: 150px;}
+.conWrap2 .con2 .tit{text-align: center; font-size: 30px; line-height: 48px; font-weight: 700; color: #5a88c6;}
+.conWrap2 .con2 fieldset{padding-top: 30px;}
+.conWrap2 .con2 .infoBox table{border-collapse: separate; border-spacing: 0 10px; margin: 0 auto;}
+.conWrap2 .con2 .infoBox tbody tr+tr{padding-top: 10px;}
+.conWrap2 .con2 .infoBox tbody tr th{width: 280px; height: 50px; background-color: #aeaeae;}
+.conWrap2 .con2 .infoBox tbody tr th.h200{height: 200px;}
+.conWrap2 .con2 .infoBox tbody tr th span{font-size: 14px; color: #fff;}
+.conWrap2 .con2 .infoBox tbody tr td{padding-left: 20px;}
+.conWrap2 .con2 .infoBox tbody tr td .inpW180 input{width: 180px;}
+.conWrap2 .con2 .infoBox tbody tr td .inpW280 input{width: 280px;}
+.conWrap2 .con2 .infoBox tbody tr td .inpW380 input{width: 380px;}
+.conWrap2 .con2 .infoBox tbody tr td .inpW480 input{width: 480px;}
+.conWrap2 .con2 .infoBox tbody tr td .inpW480H200 input{width: 480px; height: 200px;}
+.conWrap2 .con2 .infoBox tbody tr td input{width: 280px; height: 50px; border: 1px solid #ddd; box-sizing: border-box; padding-left: 20px;}
+.conWrap2 .con2 .infoBox tbody tr td select{width: 180px; height: 50px; border: 1px solid #ddd; padding-left: 10px;}
+.conWrap2 .con2 .infoBox tbody tr td select option{}
+.conWrap2 .con2 .infoBox tbody tr td .btnG{background-color: #aeaeae; width: 100px; height: 50px; font-size: 14px; color: #fff; margin-left: -5px;}
+.conWrap2 .con2 .btnArea{text-align: center; margin-top: 60px;}
+.conWrap2 .con2 .btnArea .btB{width: 180px; height: 50px; background-color: #5a88c6; border: 1px solid #5a88c6; font-size: 14px; color: #fff; box-sizing: border-box; margin-right: 16px;}
+.conWrap2 .con2 .btnArea .btW{width: 180px; height: 50px; background-color: #fff; border: 1px solid #e3e3e3; font-size: 14px; color: #5a88c6; box-sizing: border-box;}
+
+
+/*franchise-rental*/
+.conWrap3{margin-top: 100px;}
+.conWrap3 .con1 .tit{text-align: center; font-size: 30px; line-height: 48px; font-weight: 700; color: #5a88c6;}
+.conWrap3 .con1 .imgBox{margin-top: 60px; overflow: hidden;}
+.conWrap3 .con1 .imgBox .left{float: left; margin-right: 70px; padding-top: 80px;}
+.conWrap3 .con1 .imgBox .right{float: left;}
+.conWrap3 .con1 .imgBox .right .text{font-size: 16px; font-weight: 500; line-height: 24px; color: #777;}
+.conWrap3 .con1 .imgBox .right .text span{color: #5a88c6;}
+.conWrap3 .con1 .imgBox .right .txtBox{margin-top: 20px; padding: 30px 0 30px 30px; width: 760px; background-color: #f2f2f2; box-sizing: border-box;}
+.conWrap3 .con1 .imgBox .right .txtBox p{color: #777;}
+.conWrap3 .con1 .imgBox .right .txtBox .title{line-height: 24px;}
+.conWrap3 .con1 .imgBox .right .txtBox .txt{font-size: 14px; line-height: 24px; padding-left: 15px; position: relative;}
+.conWrap3 .con1 .imgBox .right .txt:after{content: ""; display: block; background: url(../../common/images/sub_images/franchise/3con1_ico.png) no-repeat center center; width: 5px; height: 5px; position: absolute; left: 0; top: 9px;}
+.conWrap3 .con1 .imgBox .right .img{margin-top: 20px; margin-bottom: 10px;}
+.conWrap3 .con1 .imgBox .right .num{font-size: 14px; font-weight: 300; color: #777;}
+.conWrap3 .con2{margin-top: 100px;}
+.conWrap3 .con2 .tit{text-align: center; font-size: 30px; line-height: 48px; font-weight: 700; color: #5a88c6;}
+.conWrap3 .con2 .agreeBox{margin-top: 60px; border: 1px solid #ddd; box-sizing: border-box; font-size: 16px; height: 330px; line-height: 24px; color: #777; padding: 30px; overflow-y: scroll;}
+.conWrap3 .con2 .agreeBox strong{font-weight: 500;}
+.conWrap3 .con2 .agreeCheck{padding-top: 35px; text-align: center; font-size: 18px; line-height: 24px; color: #777; position: relative;}
+.conWrap3 .con2 .agreeCheck input[type=checkbox]{position: absolute; left: -9999px; display: none;}
+.conWrap3 .con2 .agreeCheck label{padding-left: 40px; cursor: pointer;}
+.conWrap3 .con2 .agreeCheck input[type=checkbox]+label::after{content: ""; display: inline-block; width: 25px; height: 25px; background-color: #f2f2f2; border-radius: 5px; position: absolute; left: 530px; top: 33px;}
+.conWrap3 .con2 .agreeCheck input[type=checkbox]:checked+label::after{background: #f2f2f2 url(../../common/images/sub_images/franchise/ico_check.png) no-repeat center center;}
+.conWrap3 .container .con2{position: relative; padding-bottom: 100px;}
+.conWrap3 .container .con2:after{content: ""; display: block; width: 100%; height: 1px; background-color: #ddd; position: absolute; left: 0; bottom: 0;}
+.conWrap3 .con3{margin-top: 100px; margin-bottom: 150px;}
+.conWrap3 .con3 .tit{text-align: center; font-size: 30px; line-height: 48px; font-weight: 700; color: #5a88c6;}
+.conWrap3 .con3 fieldset{padding-top: 60px;}
+.conWrap3 .con3 .infoBox table{border-collapse: separate; border-spacing: 0 10px; margin: 0 auto;}
+.conWrap3 .con3 .infoBox tbody tr+tr{padding-top: 10px;}
+.conWrap3 .con3 .infoBox tbody tr th{width: 280px; height: 50px; background-color: #aeaeae;}
+.conWrap3 .con3 .infoBox tbody tr th.h200{height: 200px;}
+.conWrap3 .con3 .infoBox tbody tr th span{font-size: 14px; color: #fff;}
+.conWrap3 .con3 .infoBox tbody tr td{padding-left: 20px;}
+.conWrap3 .con3 .infoBox tbody tr td .inpW180 input{width: 180px;}
+.conWrap3 .con3 .infoBox tbody tr td .inpW280 input{width: 280px;}
+.conWrap3 .con3 .infoBox tbody tr td .inpW380 input{width: 380px;}
+.conWrap3 .con3 .infoBox tbody tr td .inpW480 input{width: 480px;}
+.conWrap3 .con3 .infoBox tbody tr td .inpW480H200 input{width: 480px; height: 200px;}
+.conWrap3 .con3 .infoBox tbody tr td input{width: 280px; height: 50px; border: 1px solid #ddd; box-sizing: border-box; padding-left: 20px;}
+.conWrap3 .con3 .infoBox tbody tr td select{width: 180px; height: 50px; border: 1px solid #ddd; padding-left: 10px;}
+.conWrap3 .con3 .infoBox tbody tr td .btnG{background-color: #aeaeae; width: 100px; height: 50px; font-size: 14px; color: #fff; margin-left: -5px;}
+.conWrap3 .con3 .btnArea{text-align: center; margin-top: 60px;}
+.conWrap3 .con3 .btnArea .btB{width: 180px; height: 50px; background-color: #5a88c6; border: 1px solid #5a88c6; font-size: 14px; color: #fff; box-sizing: border-box; margin-right: 16px;}
+.conWrap3 .con3 .btnArea .btW{width: 180px; height: 50px; background-color: #fff; border: 1px solid #e3e3e3; font-size: 14px; color: #5a88c6; box-sizing: border-box;}

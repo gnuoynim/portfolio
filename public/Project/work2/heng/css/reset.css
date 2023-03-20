@@ -1,0 +1,15 @@
+@charset 'utf-8';
+body,h1,h2,h3,h4,h5,h6,p,ol,ul,blockquote,fieldset,legend{margin: 0; padding: 0;}
+ol,ul{list-style: none;}
+em{font-style: normal;}
+address{font-style: normal;}
+img {vertical-align: middle;}
+input[type="text"] ,
+input[type="password"] ,
+input[type="email"] ,
+input[type="tel"] ,
+input[type="checkbox"] ,
+input[type="radio"] { vertical-align: middle; }
+fieldset{border: none;}
+legend{text-indent: -9999px;width: 1px; height: 1px; overflow: hidden;font-size: 1px; line-height: 1px;position: absolute;clip: rect(0,0,0,0);}
+a{text-decoration: none; color: #4b4b4b;}

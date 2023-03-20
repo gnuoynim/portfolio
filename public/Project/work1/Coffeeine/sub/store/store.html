@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>매장 안내</title>
+    <link rel="SHORTCUT ICON" href="../../common/images/favicon.ico">
+    <link href="../../common/css/common.css" rel="stylesheet">
+    <link href="../../common/css/style4.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="../../common/js/common.js"></script>
+    <script src="../../common/js/main.js"></script>    
+    <script src="../../common/js/sub.js"></script> 
+</head>
+<body>
+   <div id="util">
+        <div class="container">
+            <div class="right">
+                <a class="login" href="#">로그인</a>
+                <a class="join" href="#">회원가입</a>
+            </div>
+        </div>
+    </div>
+    <header id="header">
+        <div class="container">
+            <h1 class="logo">
+                <a href="../../main/index.html">
+                    <img src="../../common/images/logo.png" alt="커피니 로고">
+                </a>
+            </h1>
+            <nav>
+                <ul id="gnb">
+                    <li>
+                        <a href="#">COFFEEINE</a>
+                        <div class="towD">
+                            <ul>
+                                <li><a href="../../sub/coffeeine/brandstory.html">브랜드 소개</a></li>
+                                <li><a href="../../sub/coffeeine/coffeeineNews.html">커피니 소식</a></li>
+                                <li><a href="../../sub/coffeeine/Affiliate.html">제휴 문의</a></li>
+                                <li><a href="../../sub/coffeeine/directions.html">오시는 길</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">MENU</a>
+                        <div class="towD">
+                            <ul>
+                                <li><a href="../../sub/menu/new.html">신제품</a></li>
+                                <li><a href="../../sub/menu/berverage.html">음료</a></li>
+                                <li><a href="../../sub/menu/dessert.html">디저트</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">MEMBERSHIP</a>
+                        <div class="towD">
+                            <ul>
+                                <li><a href="../../sub/membership/members.html">커피:니 멤버스</a></li>
+                                <li><a href="../../sub/membership/card.html">커피:니 카드</a></li>
+                                <li><a href="../../sub/membership/cs.html">고객의 소리</a></li>
+                                <li><a href="../../sub/membership/faq.html">FAQ</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">STORE</a>
+                        <div class="towD">
+                            <ul>
+                                <li><a href="../../sub/store/store.html">매장 안내</a></li>
+                                <li><a href="../../sub/store/newstore.html">신규 매장</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">FRANCHISE</a>
+                        <div class="towD">
+                            <ul>
+                                <li><a href="../../sub/franchise/franguide.html">가맹 안내</a></li>
+                                <li><a href="../../sub/franchise/francounsel.html">가맹 상담</a></li>
+                                <li><a href="../../sub/franchise/franrental.html">렌탈 서비스</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+            <div class="gnbBg"></div>
+        </div>
+    </header>
+    <div class="tab">
+        <img src="../../common/images/sub_images/store/tab_bg.png" alt="탭배경">
+        <div class="tabMenu container">
+            <ul>
+                <li class="on"><a href="#">매장안내</a></li>
+                <li><a href="newstore.html">신규매장</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="conWrap1">
+        <div class="container">
+            <h2 class="tit">매장안내</h2>
+            <form method="get" id="frmSerch">
+                <div class="srchType">
+                    <div>
+                        <div class="srchArea">
+                            <span class="txt">지역 검색</span>
+                            <div class="srchSel">
+                                <select>
+                                    <option>전체</option>
+                                    <option>서울</option>
+                                    <option>경기</option>
+                                    <option>수원</option>
+                                    <option>강원</option>
+                                    <option>남양주시</option>
+                                    <option>제주</option>
+                                    <option>전남</option>
+                                    <option>전북</option>
+                                    <option>대전</option>
+                                    <option>충북</option>
+                                    <option>경남</option>
+                                    <option>경북</option>
+                                    <option>전주</option>
+                                    <option>익산</option>
+                                    <option>순천</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="srchStore">
+                            <span class="txt">매장명 검색</span>
+                            <div class="input">
+                                <input type="text">
+                            </div>
+                        </div>
+                        <button class="srchBtn">검색</button>
+                    </div>
+                </div>
+            </form>
+            <div class="listType">
+                <div class="listH">
+                    <p class="area">지역</p>
+                    <p class="name">매장명</p>
+                    <p class="address">주소</p>
+                    <p class="num">전화번호</p>
+                </div>
+                <ul>
+                    <li>
+                        <a href="#">
+                            <p class="area">남양주시</p>
+                            <p class="name">별내점</p>
+                            <p class="address">경기 남양주시 별내동 1097 1층 108호</p>
+                            <p class="num">070-4231-2658</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <p class="area">제주</p>
+                            <p class="name">제주공항국내선점</p>
+                            <p class="address">제주 제주시 용담2동 제주국제공항 3층 일반대합실 내 위치</p>
+                            <p class="num">064-749-1325</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <p class="area">제주</p>
+                            <p class="name">제주공항국제선점</p>
+                            <p class="address">제주 제주시 용담2동 제주국제공항 국제선 내</p>
+                            <p class="num">064-749-1326</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <p class="area">전북</p>
+                            <p class="name">군산대원당점</p>
+                            <p class="address">전북 군산시 미룡동 800-9 (원당길 73-5)</p>
+                            <p class="num">063-466-8599</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <p class="area">대전</p>
+                            <p class="name">대전KDB산업은행점</p>
+                            <p class="address">대전 서구 둔산2동 946</p>
+                            <p class="num">042-482-1325</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <p class="area">인천</p>
+                            <p class="name">제물포역점</p>
+                            <p class="address">인천 남구 숭의동 450-39 역사 내 위치</p>
+                            <p class="num">032-881-7829</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <p class="area">대전</p>
+                            <p class="name">대전NJ타워점</p>
+                            <p class="address">대전 서구 둔산동 1279 (대덕대로 216)</p>
+                            <p class="num">042-484-1325</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <p class="area">충북</p>
+                            <p class="name">청주공항점</p>
+                            <p class="address">충북 청원군 내수읍 입상리 79-9 청주공항 1층</p>
+                            <p class="num">043-215-1325</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <p class="area">서울</p>
+                            <p class="name">선유도역점</p>
+                            <p class="address">서울 영등포구 양평동5가  39번지 우림라이온스빌딩 A동 102호</p>
+                            <p class="num">02-2633-0841</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <p class="area">전주</p>
+                            <p class="name">만성법조타운점</p>
+                            <p class="address">전북 전주시 덕진구 만성동 1372-3 1층 101호</p>
+                            <p class="num">063-244-0123</p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="paging">
+                <ul class="pagination">
+                    <li class="on"><a href="#">1</a></li>
+                    <li><a href="#">2</a></li>
+                    <li><a href="#">3</a></li>
+                    <li><a href="#">4</a></li>
+                    <li><a href="#">5</a></li>
+                    <li><a href="#">6</a></li>
+                    <li><a href="#">7</a></li>
+                    <li><a href="#">8</a></li>
+                    <li><a href="#">9</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <footer id="footer">
+        <div class="ftrTop">
+            <div class="container">
+                <div class="links">
+                    <a href="#">회사소개</a>
+                    <a href="#">인재채용</a>
+                    <a href="#">개인정보 취급방침</a>
+                    <a href="#">이용약관</a>
+                    <a href="#">이메일 무단수집 금지</a>
+                    <a href="#">제휴문의</a>
+                    <a href="#">고객의 소리</a>
+                </div>
+                <div class="sns">
+                    <a href="https://www.facebook.com/coffeenie53/" target="_blank">
+                        <img src="../../common/images/ft-ico1.png" alt="페이스북">
+                    </a>
+                    <a href="https://twitter.com/CoffeenieKorea" target="_blank">
+                        <img src="../../common/images/ft-ico2.png" alt="트위터">
+                    </a>
+                    <a href="https://www.instagram.com/coffeenie_cafe/?hl=ko" target="_blank">
+                        <img src="../../common/images/ft-ico3.png" alt="인스타그램">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="ftrBottom">
+            <div class="container">
+                <div class="ftrLogo">
+                    <img src="../../common/images/footer_logo.png" alt="footer 로고">
+                </div>
+                <div class="txt">
+                    <address>
+                        서울시 강남구 언주로 866(신사동636-2) 커피:니 본사<br>
+                        TEL 02-546-1325 FAX 02-546-1335
+                    </address>
+                    <p class="copyright">
+                        COPYRIGHT(C) 2012 COFFEENIE ALL RIGHTS RESERVED.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

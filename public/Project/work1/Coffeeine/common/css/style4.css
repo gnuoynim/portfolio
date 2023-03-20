@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+/*store*/
+.tab{position: relative;}
+.tab .tabMenu{background-color: rgba(255, 255, 255, 0.55); position: absolute; left: 50%; bottom:0; height: 60px; border: 1px solid black; text-align: center; transform: translateX(-50%); box-sizing: border-box;}
+.tab .tabMenu ul li{float: left; width: 50%; box-sizing: border-box;}
+.tab .tabMenu ul li.on{background-color:#f3f3f3;}
+.tab .tabMenu ul li+li{border-left: 1px solid black;}
+.tab .tabMenu ul li a{font-size: 22px; font-weight: 500; line-height: 58px;}
+
+/*store*/
+.conWrap1 .container{margin-top: 100px;}
+.conWrap1 .tit{text-align: center; font-size: 30px; line-height: 48px; font-weight: 700; color: #5a88c6;}
+.conWrap1 .srchType{margin-top: 60px; border: 1px solid #f3f3f3; height: 130px; text-align: center; box-sizing: border-box;}
+.conWrap1 .srchType div{display: inline-block;}
+.conWrap1 .srchType div .txt{font-size: 18px; margin-right: 20px; line-height: 130px;}
+.conWrap1 .srchType div .srchArea{text-align: center;}
+.conWrap1 .srchType div .srchArea .srchSel{display: inline-block; }
+.conWrap1 .srchType div .srchArea .srchSel select{width: 160px; height: 50px; border: 1px solid #ddd; padding: 0 10px;}
+.conWrap1 .srchType div .srchStore span{margin-left: 30px;}
+.conWrap1 .srchType div .srchStore .input{margin-right: 6px;}
+.conWrap1 .srchType div .srchStore .input input{width: 160px; height: 50px; border: 1px solid #ddd; padding: 0 20px;}
+.conWrap1 .srchType div .srchBtn{width: 80px; height: 50px; font-size: 14px; line-height: 50px; color: #fff; background-color: #5a88c6;}
+.conWrap1 .listType{margin-top: 100px; border-top: 2px solid #5a88c6; font-family: 'Noto Sans KR';}
+.conWrap1 .listType .listH{display: table; width: 100%; padding: 22px 0; border-bottom: 1px solid #ddd; overflow: hidden;}
+.conWrap1 .listType .listH p{display: table-cell; text-align: center; font-size: 18px; font-weight: 500;}
+.conWrap1 .listType p.area{width: 131px;}
+.conWrap1 .listType p.name{width: 150px;}
+.conWrap1 .listType p.address{width: 666px; padding-left: 55px; box-sizing: border-box;}
+.conWrap1 .listType p.num{width: 233px;}
+.conWrap1 .listType ul li{display: table; width: 100%; padding: 22px 0; border-bottom: 1px solid #ddd; overflow: hidden;}
+.conWrap1 .listType ul li p{display: table-cell; font-size: 16px; text-align: center;}
+.conWrap1 .listType ul li p.address{white-space: nowrap; overflow: hidden;text-overflow: ellipsis; text-align: left;}
+.conWrap1 .listType ul li a{cursor: pointer; transition: all 0.2s ease;}
+.conWrap1 .listType ul li a:hover{color: #5a88c6; font-weight: 500;}
+.conWrap1 .paging{margin-top: 60px; margin-bottom: 150px;}
+.conWrap1 .paging .pagination{text-align: center;}
+.conWrap1 .paging .pagination li{display: inline-block; font-family: 'Noto Sans KR';}
+.conWrap1 .paging .pagination li+li{margin-left: 10px;}
+.conWrap1 .paging .pagination li.on a{display: block; width: 50px; height: 50px; border-radius: 25px 25px 25px 25px; background-color: #5a88c6; line-height: 49px; color: #fff;}
+.conWrap1 .paging .pagination li a{display: block; width: 50px; height: 50px; border-radius: 25px 25px 25px 25px; background-color: #fff; line-height: 49px; color: #5a88c6; border: 1px solid #ddd;}
+
+/*newstore*/
+.conWrap2{margin-bottom: 150px;}
+.conWrap2 .container{margin-top: 100px;}
+.conWrap2 .tit{text-align: center; font-size: 30px; line-height: 48px; font-weight: 700; color: #5a88c6;}
+.conWrap2 #newList{margin-top: 60px; position: relative;}
+.conWrap2 #newList .swiper-container{width: 1180px; height: 560px; margin: 0 auto;}
+.conWrap2 #newList .swiper-container .swiper-wrapper .swiper-slide a p{text-align: center; font-size: 14px;}
+.conWrap2 #newList .swiper-container .swiper-wrapper .swiper-slide a .name{padding-top: 20px; font-weight: 500;}
+.conWrap2 #newList .swiper-container .swiper-wrapper .swiper-slide a .address{padding-top: 10px; font-weight: 300;}
+.conWrap2 #newList .swiper-pagination{bottom: 10px;}
+.conWrap2 #newList .swiper-container .swiper-pagination-bullet{width: 10px; height: 10px; display: inline-block; border-radius: 50%; background: #f2f2f2; opacity: 0.9;}
+.conWrap2 #newList .swiper-container .swiper-pagination-bullet.swiper-pagination-bullet-active{width: 10px; height: 10px; display: inline-block; border-radius: 50%; background: #5a88c6; opacity: 0.9;}
+
+
+
+
